@@ -5,7 +5,7 @@
 **Figure 1.** Algorithmic flowchart of the proposed latent diffusion-based photoacoustic image reconstruction framework. This framework encompasses the forward diffusion process and reverse diffusion process operating in the latent space, along with the corresponding real-world data acquisition and simulation pipeline for photoacoustic tomography (PAT). The forward diffusion process encodes the original image into latent variables and gradually introduces noise, while the reverse diffusion process iteratively denoises the latent variables to reconstruct the final image. The data pipeline simulates PAT data acquisition via an ultrasonic transducer array and generates datasets with different quality levels. The latent space network incorporates a NAFNet block structure to enable efficient feature extraction and denoising during the reconstruction.
 ## Figure 2
 
-![picture2](images/picture1.png)
+![picture2](images/picture2.png)
 
 **Figure 2.** Summary of reconstruction process and the corresponding metric trends. Panels (a1)–(a5), (b1)–(b5), and (c1)–(c5) show snapshots of the proposed method from Step 1 to Step 100 under three acquisition constraints—bandwidth-limited (BW), limited-angle (LA), and sparse-view (SV), respectively; panels (d), (e), and (f) plot PSNR and SSIM versus the iteration steps for the three corresponding scenarios.
 

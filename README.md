@@ -1,4 +1,5 @@
 Towards Robust Photoacoustic Tomography under Extreme Acquisition Constraints via Latent-Space Generative Modeling
+
 ## Figure 1
 
 ![Algorithmic flowchart of the proposed framework](images/picture1.png)
